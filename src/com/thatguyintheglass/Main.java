@@ -3,6 +3,10 @@ package com.thatguyintheglass;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("This is my first program in java- Change - Change #2");
+        Dog myDog = new Dog("black","labrador");
+        System.out.println("I'm a big " + myDog.Color + " " + myDog.Type);
+        myDog.MakeSound();
+
+
     }
 }
