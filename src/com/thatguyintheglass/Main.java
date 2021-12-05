@@ -20,7 +20,7 @@ public class Main {
 
         for (ICustomer customer : customers) {
             System.out.println(customer.getCustomerName() + " will pay " + customer.getPriceForProduct(300) + " for a product with a full price of 300");
-            System.out.println(customer.getCustomerName() + " will pay " + customer.getPriceForProduct(1000) + " for a product with a full price of 1000");
+            System.out.println(customer.getCustomerName() + " will pay " + customer.getPriceForProduct(3800) + " for a product with a full price of 3800");
         }
     }
 }
