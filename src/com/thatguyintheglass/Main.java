@@ -9,7 +9,7 @@ public class Main {
         List<ICustomer> customers = new ArrayList<ICustomer>();
         customers.add(new GoldCustomer(1,"MA'KHIA BRYANT"));
         customers.add(new SilverCustomer(2,"ALVIN MOTLEY JR."));
-        customers.add(new Customer(3,"DAUNTE WRIGHT"));
+        customers.add(new Customer(3,"DAUNTEE WRIGHT"));
         customers.add(new GoldCustomer(4,"JAMES LIONEL JOHNSON"));
         customers.add(new Customer(5,"QUAWAN CHARLES"));
         customers.add(new Customer(6,"RAYSHARD BROOKS"));
