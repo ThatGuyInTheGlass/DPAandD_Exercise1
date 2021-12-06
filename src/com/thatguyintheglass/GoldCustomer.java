@@ -1,22 +1,10 @@
 package com.thatguyintheglass;
 
-public class GoldCustomer implements ICustomer{
-
-    //state
-    private int ID;
-    private String Name;
+public class GoldCustomer extends Customer{
 
     public GoldCustomer(int id, String name)
-
     {
-        this.ID = id;
-        this.Name = name;
-    }
-
-
-    @Override
-    public String getCustomerName() {
-        return Name;
+      super(id, name);
     }
 
     @Override

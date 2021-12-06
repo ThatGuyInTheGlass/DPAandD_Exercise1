@@ -1,21 +1,10 @@
 package com.thatguyintheglass;
 
-public class SilverCustomer implements ICustomer{
-
-
-    //state
-    private int ID;
-    private String Name;
+public class SilverCustomer extends Customer{
 
     public SilverCustomer(int id, String name)
     {
-        this.ID = id;
-        this.Name = name;
-    }
-
-    @Override
-    public String getCustomerName() {
-        return Name;
+        super(id, name);
     }
 
     @Override
@@ -23,7 +12,6 @@ public class SilverCustomer implements ICustomer{
         if (fullPrice > 500) {
             return fullPrice*0.85;
         }
-
         else {
             return fullPrice;
         }

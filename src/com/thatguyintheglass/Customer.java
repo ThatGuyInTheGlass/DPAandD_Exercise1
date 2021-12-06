@@ -3,8 +3,8 @@ package com.thatguyintheglass;
 public class Customer implements ICustomer{
 
     //state
-    private int ID;
-    private String Name;
+    protected int ID;
+    protected String Name;
 
     public Customer(int id, String name)
     {
